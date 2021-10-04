@@ -96,12 +96,12 @@ class _HomeState extends State<Home> {
                 setState(() {
                   _bmiResult = _w/ (_h * _h);
                   if (_bmiResult >25){
-                    _textResult= "Begin exercising";
+                    _textResult= "You are overweight!";
                   }
                   else if (_bmiResult>=18.5 && _bmiResult<=25){
                      _textResult= "You are in good shape";
                   }else{
-                    _textResult="You're under weight";
+                    _textResult="You're underweight!";
                   }
 
                   }
